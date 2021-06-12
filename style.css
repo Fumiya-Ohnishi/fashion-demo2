@@ -1,0 +1,330 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body {
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+    font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+.topbre {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.topbre .toplogo {
+    height: 75px;
+    padding-top: 60px;
+}
+
+.top-image {
+    padding-bottom: 70px;
+}
+
+.textarea .heading {
+    font-family: 'Pacifico', cursive;
+    width: 60%;
+    margin: 0 auto 40px;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    /* background: url(../images/borderWhite.png) repeat-x 0 50%; */
+    background-size: 1px ;
+    padding-bottom: 10px;
+    
+}
+
+li {
+    list-style: none;
+    /* text-align: center; */
+    display: inline-block;
+    
+}
+
+a {
+    padding-left: 30px;
+    color: #fff;
+    font-size: 15px;
+   
+}
+
+.top-image img{
+    width: 100%;
+    height: auto;
+}
+
+.message-wrapper {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textarea p {
+    text-align: left;
+}
+
+.message-wrapper {
+    padding-bottom: 80px;
+}
+
+.imgwrapper img{
+    width: 33.3333333333%;
+    height: auto;
+}
+ 
+.project-wrapper {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.project-textbox h1 {
+    font-family: 'Pacifico', cursive;
+    width: 60%;
+    margin: 0 auto 40px;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    background: url(../images/borderWhite.png) repeat-x 0 50%;
+    background-size: 1px 1px;
+}
+
+.project-img img {
+    width: 866px;
+    height: 393px;
+    padding-bottom: 40px;
+}
+
+.project-textbox p {
+    text-align: left;
+}
+
+.big-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.brand-wrapper {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.brand-wrapper h1 {
+    font-family: 'Pacifico', cursive;
+    width: 60%;
+    margin: 0 auto 40px;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    /* background: url(../images/borderWhite.png) repeat-x 0 50%; */
+    background-size: 1px 1px;
+}
+
+.brand-wrapper {
+    width: 60%;
+    text-align: center;
+}
+
+.brand img {
+    width: 170px;
+    height: 106px;
+    padding: 80px 50px;
+    margin-bottom: 40px;
+    line-height: 0 !important;
+    background: #f6f6f6;
+}
+
+.brand li {
+    display: inline-block;
+    width: 28%;
+    padding: 0 2.5% 50px;
+    margin-bottom: 0;
+    vertical-align: top;
+    text-align: left;
+}
+
+.bigimg-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+.bigimg-wrapper img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    background: url(img2/4501188_l.jpg) no-repeat 100% 100% fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    text-align: center;
+    padding: 220px 620px;
+}
+
+.company-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 80px;
+    padding: 0;
+    padding-bottom: 80px;
+}
+
+.company-wrapper h1 {
+    font-family: 'Pacifico', cursive;
+    width: 60%;
+    margin: 0 auto 40px;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    /* background: url(../images/borderWhite.png) repeat-x 0 50%; */
+    background-size: 1px 1px;
+    padding-top: 40px;
+}
+
+.company-contents {
+    display: flex;
+    padding-top: 30px;
+}
+
+.address {
+    text-align: left;
+    padding: 12px;
+}
+
+.ggmap {
+    width: 80%;
+    position: relative;
+}
+
+iframe {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+.sns {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.sns .icon {
+    width: 25px;
+    height: auto;
+    padding: 45px 10px 0 0;
+}
+.sns .icon:hover{
+    opacity: 0.8;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
