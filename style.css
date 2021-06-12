@@ -328,3 +328,17 @@ footer {
     text-align: center;
     padding-bottom: 40px;
 }
+
+@media screen and (max-width: 812px) {
+    body {
+        min-width: auto;
+    }
+
+/* mainのスタイルシート */
+
+.wrapper {
+    margin: 50px 0;
+}
+
+
+}
